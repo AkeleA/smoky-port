@@ -5,14 +5,14 @@ import React from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
-const nsibidi = localFont({
+const fira = localFont({
   src: [
     {
-      path: "../../public/fonts/AYOR-Thin.ttf",
+      path: "../../public/fonts/FiraCode-VariableFont_wght.ttf",
       weight: "400",
     },
   ],
-  variable: "--font-ayor",
+  variable: "--font-fira",
 });
 
 export const metadata = {
@@ -26,7 +26,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${nsibidi.variable} font-sans`}>
+    <html lang="en" className={`${fira.variable} font-sans`}>
       <body className={inter.className}>{children}</body>
     </html>
   );
