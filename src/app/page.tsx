@@ -1,6 +1,6 @@
-import { Fira_Code } from "next/font/google";
 import Profile from "./Components/About me/profile";
 import Navbar from "./Components/Navbar/Navbar";
+import Projects from "./Components/Projects/Projects";
 import Sidebar from "./Components/Sidebar/sidebar";
 
 export default function Home() {
@@ -9,6 +9,7 @@ export default function Home() {
       <Sidebar />
       <Navbar />
       <Profile />
+      <Projects />
     </main>
   );
 }

@@ -43,6 +43,12 @@ const Profile: React.FC = () => {
           <Image src="/dot5.png" alt="dots 1" width={84} height={4} />
         </div>
       </div>
+      <div className="flex flex-row items-center absolute p-2 gap-2.5 h-9 w-[402px] left-[590px] top-[386px] bg-gray-900 border-solid border-[1px] border-gray-500">
+        <span className="box-border w-4 h-4 bg-purple-400 flex-none order-none flex-grow-0 border-[1px] border-solid border-purple-400 "></span>
+        <h3 className="w-72 h-5n font-sans not-italic font-medium text-base leading-5 text-gray-500 flex-none order-1 flex-grow-0">
+          Currently working on Portfolio
+        </h3>
+      </div>
     </div>
   );
 };
