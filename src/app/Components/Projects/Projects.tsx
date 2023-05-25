@@ -15,9 +15,13 @@ const Projects: React.FC = () => {
           </span>{" "}
           <span className="w-[511px] h-px bg-purple-400 flex-none order-1 flex-grow mt-[20.5px]"></span>
         </h1>
-        <h3 className="top-0 left-[901px] absolute w-32 h-5 not-italic font-medium text-base leading-5 text-white">
+        <a
+          href="https://github.com/AkeleA?tab=repositories"
+          target="_blank"
+          className="top-0 left-[901px] absolute w-32 h-5 not-italic font-medium text-base leading-5 text-white"
+        >
           View all &#x21DD;{" "}
-        </h3>
+        </a>
       </div>
       <div className="flex flex-row items-start p-0 gap-4 absolute w-210 h-[428px] left-0 top-[59px]">
         <div className="flex flex-col items-start w-[330.58px] h-[391px] p-0 flex-none order-none flex-grow-0 border  border-solid border-gray-500">
@@ -110,6 +114,27 @@ const Projects: React.FC = () => {
               </span>
             </a>
           </div>
+        </div>
+        <div className="flex flex-col items-start w-[330.58px] h-[422px] p-0 border border-solid border-gray-500 flex-none order-2 flex-grow-0">
+          <div className="border-b border-solid border-gray-500 flex-none order-none flex-grow-0">
+            <Image
+              src="/RandQuot.jpg"
+              width={330.58}
+              height={201}
+              alt="Quotes"
+            />
+          </div>
+          <h2 className="flex flex-row items-start p-2 gap-2 w-[330.58px] h-[37px] flex-none order-1 self-stretch flex-grow-0">
+            <span className="w-8 h-5 font-sans not-italic font-normal text-base leading-5 text-gray-500 flex-none order-none flex-grow-0">
+              CSS
+            </span>
+            <span className="w-16 h-5 font-sans not-italic font-normal text-base leading-5 text-gray-500 flex-none order-1 flex-grow-0">
+              Axios
+            </span>
+            <span className="w-16 h-5 font-sans not-italic font-normal text-base leading-5 text-gray-500 flex-none order-2 flex-grow-0">
+              React
+            </span>
+          </h2>
         </div>
       </div>
     </div>
