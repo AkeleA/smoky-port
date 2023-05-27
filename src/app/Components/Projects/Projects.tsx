@@ -135,6 +135,25 @@ const Projects: React.FC = () => {
               React
             </span>
           </h2>
+          <div className="box-border flex flex-col items-start p-4 gap-4 w-[330.58px] h-[184px] border-t border-solid border-gray-500 flex-none order-3 self-stretch flex-grow-0">
+            <h2 className="w-[298.58px] h-[30px] font-sans not-italic font-medium text-2xl leading-8 text-white flex-none order-0 self-stretch flex-grow-0">
+              {" "}
+              Random Quotes{" "}
+            </h2>
+            <span className="w-[298.58px] h-5 font-sans not-italic font-normal text-base leading-5 text-gray-500 flex-none order-1 self-stretch flex-grow-0  ">
+              Random Quotes generator
+            </span>
+            <a
+              href="https://akelea.github.io/RandQuot/"
+              className="flex flex-row items-start gap-4 p-0 w-24 h-8 flex-none order-2 flex-grow-0 border
+              border-solid
+              border-purple-400"
+            >
+              <span className="w-[77px] h-[18px] font-sans p-1 not-italic font-medium text-xs leading-5 text-white flex-none order-none flex-grow-0">
+                Web &#x21DC;&#x21DD;{" "}
+              </span>
+            </a>
+          </div>
         </div>
       </div>
     </div>
