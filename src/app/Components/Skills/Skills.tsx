@@ -54,6 +54,37 @@ const Skills = (props: Props) => {
               </span>
             </p>
           </div>
+          <div className="border-box flex flex-col items-start pt-2 pr-2 gap-2 absolute w-[196px] h-[132px] left-[388px] top-0 border border-solid border-gray-500">
+            <h2 className="flex flex-row items-start pt-0 pl-2 w-[196px] h-[21px] flex-none order-0 self-stretch flex-grow-0">
+              <span className="w-12 h-[21] font-sans not-italic font-semibold text-base leading-5 text-white flex-none order-none flex-grow-0">
+                Tools
+              </span>
+            </h2>
+            <span className="w-[196px] h-0 border border-solid border-gray-500 flex-none order-1 self-stretch flex-grow-0"></span>
+            <div className="flex flex-col items-start pt-0 pl-2 gap-2 w-[196px] h-[79px] flex-none order-2 flex-grow-0">
+              <p className="flex flex-row items-start p-0 gap-2 w-[180px] h-[21px] flex-none order-0 flex-grow-0">
+                <span className="w-[58px] h-[21px] font-sans not-italic font-normal text-base leading-5 text-gray-500 flex-none order-none flex-grow-0">
+                  VSCode
+                </span>{" "}
+                <span className="w-[58px] h-[21px] font-sans not-italic font-normal text-base leading-5 text-gray-500 flex-none order-1 flex-grow-0">
+                  Netlify
+                </span>
+              </p>
+              <p className="flex flex-row items-start p-0 w-[142px] h-[21px] flex-none order-1 flex-grow-0">
+                <span className="w-12 h-[21px] font-sans not-italic font-normal text-base leading-5 text-gray-500 flex-none order-none flex-grow-0">
+                  Figma
+                </span>
+              </p>
+              <p className="flex flex-row items-start p-0 gap-[11px] w-[156px] h-[21px] flex-none order-2 flex-grow-0">
+                <span className="w-[29px] h-[21px] font-sans not-italic font-normal text-base leading-5 text-gray-500 flex-none order-none flex-grow-0">
+                  Git
+                </span>{" "}
+                <span className="w-[116px] h-[21px] font-sans not-italic font-normal text-base leading-5 text-gray-500 flex-none order-1 flex-grow-0">
+                  Font Awesome
+                </span>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
