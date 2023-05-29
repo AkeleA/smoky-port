@@ -5,7 +5,7 @@ type Props = {};
 
 const Skills = (props: Props) => {
   return (
-    <div className="absolute w-[1024px] h-[365px] left-[173px] top-[1514px]">
+    <div className="absolute w-[1024px] h-[365px] left-[173px] top-[1314px]">
       <div className="flex flex-row items-center p-0 gap-4 absolute w-[391px] h-[42px] left-0 top-0">
         <h2 className="flex flex-row items-start p-0 w-[136px] h-[42px] flex-none order-0 flex-grow-0">
           <span className="w-5 h-[42px] font-sans not-italic font-medium text-3xl leading-[42px] text-purple-400 flex-none order-none flex-grow-0">
