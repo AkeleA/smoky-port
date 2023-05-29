@@ -1,5 +1,6 @@
 import Profile from "./Components/About me/profile";
 import Contacts from "./Components/Contacts/Contacts";
+import Footer from "./Components/Footer/Footer";
 import Navbar from "./Components/Navbar/Navbar";
 import Bio from "./Components/Profile/aboutme";
 import Projects from "./Components/Projects/Projects";
@@ -16,6 +17,7 @@ export default function Home() {
       <Skills />
       <Bio />
       <Contacts />
+      <Footer />
     </main>
   );
 }
