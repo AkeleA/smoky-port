@@ -42,6 +42,12 @@ const Footer = (props: Props) => {
             </div>
           </div>
         </div>
+        <p className="w-[900px] h-[21px] font-sans not-italic font-normal text-base leading-5 text-gray-500 flex-none order-1 flex-grow-0">
+          &#169; Copyright 2023. Developed by Akele. Designed by{" "}
+          <a href="elias-dev.ml" className="">
+            Elias
+          </a>
+        </p>
       </div>
     </div>
   );

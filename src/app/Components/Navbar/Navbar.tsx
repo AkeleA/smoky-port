@@ -21,7 +21,7 @@ const Navbar: React.FC = () => {
   );*/
 
   return (
-    <div className="flex flex-row justify-between items-end pt-8 pr-0 pb-2 gap-100 absolute w-210 h-15 left-44 top-0 bg-gray-900">
+    <div className="flex flex-row justify-between items-end pt-8 pr-0 pb-2 gap-100 absolute w-210 h-15 left-44 top-0 bg-gray-900 bg-opacity-0 z-50">
       <div className="flex flex-row gap-2 justify-between">
         <h2 className="font-sans text-white">AKELEOJO</h2>
       </div>
